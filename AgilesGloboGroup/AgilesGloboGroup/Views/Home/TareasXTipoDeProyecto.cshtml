@@ -1,0 +1,13 @@
+﻿@model AgilesGloboGroup.Models.TareasXTipoProyecto
+@*@model AgilesGloboGroup.Models.TipoProyecto*@
+
+@{
+    ViewBag.Title = "TareasXTipoDeProyecto";
+}
+
+<h2>Tareas por Tipos de PRoyectos</h2>
+
+@Html.DropDownList("miDropDownList",(List<SelectListItem>)ViewBag.Opciones)
+
+
+
